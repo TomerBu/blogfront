@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const client = axios.create({ baseURL: "http://tomerbu.com:8081/api/v1" });
+const client = axios.create({ baseURL: "https://tomerbu.com/api/v1" });
 
 const onSuccess = (response) => response;
 const onFailure = (err) => {
